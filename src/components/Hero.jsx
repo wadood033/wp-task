@@ -1,4 +1,3 @@
-
 import { Fancybox } from "@fancyapps/ui";
 import { img, VIDEO_URL } from "../data";
 import DotSlider from "./DotSlider";
@@ -59,7 +58,7 @@ export default function Hero() {
                     Get ready for new adidas bands
                   </h2>
 
-                  <p className="text-[16px] md:text-[18px] leading-[1.35] md:leading-[24px] mt-[18px] mb-0 md:max-w-[430px]">
+                  <p className="font-['Roboto',sans-serif] font-light text-[16px] md:text-[18px] leading-[1.35] md:leading-[24px] mt-[18px] mb-0 md:max-w-[430px]">
                     Adidas tracks all begin with a starting gate and end with a
                     finish line, but everything in between varies from track to
                     track. Because no two tracks are alike, this action sport
@@ -74,4 +73,3 @@ export default function Hero() {
     </section>
   );
 }
-
