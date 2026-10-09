@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import { img } from "../data";
 import Tex from "./Tex";
@@ -24,7 +25,7 @@ export default function TopBar() {
         type="button"
         onClick={() => setOpen(false)}
         aria-label="Close announcement"
-        className="absolute right-[15px] top-[30px] flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full bg-[#04522C] md:right-[20px] md:top-1/2"
+        className="absolute right-[15px] top-[30px] md:top-1/2 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full bg-[#04522C] md:right-[20px]"
       >
         <img
           src={img("x-mark.png")}
@@ -35,3 +36,4 @@ export default function TopBar() {
     </div>
   );
 }
+
