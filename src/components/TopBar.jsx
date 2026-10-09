@@ -24,7 +24,7 @@ export default function TopBar() {
         type="button"
         onClick={() => setOpen(false)}
         aria-label="Close announcement"
-        className="absolute right-[15px] top-[26px] flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full bg-[#04522C] md:right-[20px] md:top-1/2"
+        className="absolute right-[15px] top-[30px] flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full bg-[#04522C] md:right-[20px] md:top-1/2"
       >
         <img
           src={img("x-mark.png")}
