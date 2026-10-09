@@ -122,7 +122,7 @@ export default function Header() {
         <div
           className={`${titleWhite} absolute right-0 top-0 h-full w-[34%] bg-[#f5f5f5] flex flex-col items-center justify-center`}
         >
-          <span className="font-oswald text-[12px] text-brand uppercase tracking-wide">
+          <span className="font-oswald text-[12px] text-brand uppercase font-medium tracking-wide">
             Partnership by
           </span>
           <img src={img("reebok-logo.png")} alt="Reebok" />
